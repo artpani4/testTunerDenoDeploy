@@ -2,14 +2,14 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "jsr:@artpani/tuner@^0.0.6": "jsr:@artpani/tuner@0.0.6",
+      "jsr:@artpani/tuner@^0.0.7": "jsr:@artpani/tuner@0.0.7",
       "jsr:@std/fmt@0.224.0": "jsr:@std/fmt@0.224.0",
       "jsr:@std/path@^1.0.2": "jsr:@std/path@1.0.2",
       "jsr:@vseplet/luminous@^1.0.5": "jsr:@vseplet/luminous@1.0.5"
     },
     "jsr": {
-      "@artpani/tuner@0.0.6": {
-        "integrity": "f170d7e4c6567843124b27753ae16c147661f2bdb3da659c996fcb79c98c8b96",
+      "@artpani/tuner@0.0.7": {
+        "integrity": "a14f58d5523509ef75f5165ee3b82141448f22ad0170af3cf882c03d50aa4d68",
         "dependencies": [
           "jsr:@std/path@^1.0.2",
           "jsr:@vseplet/luminous@^1.0.5"
@@ -46,7 +46,7 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@artpani/tuner@^0.0.6"
+      "jsr:@artpani/tuner@^0.0.7"
     ]
   }
 }
