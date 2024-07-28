@@ -6,6 +6,8 @@ import { serve } from "https://deno.land/std/http/server.ts";
 const c = await Tuner.use.loadConfig<AppCfgType>({});
 console.log(c);
 
+console.log(Deno.env.get("config"));
+
 // Create a simple HTTP server
 const handler = (req: Request): Response => {
   const body = JSON.stringify(
