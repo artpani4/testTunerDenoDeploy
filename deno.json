@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@artpani/tuner": "jsr:@artpani/tuner@^0.0.6"
+  },
+  "tasks": {
+    "start": "config=app deno run --allow-all ./mod.ts"
+  }
+}
