@@ -2,7 +2,7 @@ import Tuner from "@artpani/tuner";
 
 const cfg = Tuner.tune({
   data: {
-    adminId: 123456789,
+    adminId: 1234567892314321432,
     botName: "MyBot",
     someCommonField: "ЭТО ПОЛЕ ОТ БОТА - дочернего конфига",
   },
